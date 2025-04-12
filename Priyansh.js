@@ -18,7 +18,7 @@ global.client = new Object({
     handleReply: new Array(),
     mainPath: process.cwd(),
     configPath: new String(),
-getTime: function (option) {
+>getTime: function (option) {
   switch (option) {
     case "seconds":
       return `${moment.tz("Asia/Dhaka").format("ss")}`;
@@ -41,6 +41,7 @@ getTime: function (option) {
   }
 }
 
+}}                
 global.data = new Object({
     threadInfo: new Map(),
     threadData: new Map(),
